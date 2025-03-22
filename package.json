@@ -2,7 +2,11 @@
   "name": "zod-tuple-with-optional",
   "version": "1.0.0",
   "description": "A Zod extension that provides tuple validation with support for trailing optional elements.",
-  "keywords": ["zod", "tuple", "optional"],
+  "keywords": [
+    "zod",
+    "tuple",
+    "optional"
+  ],
   "repository": "iorate/zod-tuple-with-optional",
   "license": "MIT",
   "author": "iorate",
@@ -13,7 +17,10 @@
     "default": "./index.js"
   },
   "types": "index.d.ts",
-  "files": ["index.d.ts", "index.js"],
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "check": "biome check",
