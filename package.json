@@ -1,6 +1,6 @@
 {
   "name": "zod-tuple-with-optional",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "An extension for Zod 3 that provides tuple validation with support for trailing optional elements.",
   "keywords": [
     "zod",
