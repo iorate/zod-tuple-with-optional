@@ -179,5 +179,3 @@ export class ZodTupleWithOptional<
 }
 
 export const tupleWithOptional = ZodTupleWithOptional.create;
-
-const x = tupleWithOptional([z.string(), z.number().optional()]);
