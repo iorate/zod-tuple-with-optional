@@ -1,6 +1,6 @@
 # zod-tuple-with-optional
 
-A [Zod](https://github.com/colinhacks/zod) extension that provides tuple validation with support for trailing optional elements.
+An extension for [Zod](https://github.com/colinhacks/zod) 3 that provides tuple validation with support for trailing optional elements.
 
 ## Installation
 
@@ -10,7 +10,7 @@ npm install zod-tuple-with-optional
 
 ## Motivation
 
-Zod's native `z.tuple()` doesn't support optional elements ([issue](https://github.com/colinhacks/zod/issues/149)). This library provides a `tupleWithOptional()` function that lets you define tuples with optional trailing elements.
+The native `z.tuple()` of Zod 3 doesn't support optional elements ([issue](https://github.com/colinhacks/zod/issues/149)). This library provides a `tupleWithOptional()` function that lets you define tuples with optional trailing elements.
 
 ## Usage
 
